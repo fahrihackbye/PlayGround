@@ -1,18 +1,18 @@
-# PlayGround
+# Senja yang Tidak Selesai
 
-<!-- omgithub:readme:start -->
-## 🚀 Build, play, and remix with OMGithub
+Sebuah visual novel Ren'Py berbahasa Indonesia tentang romansa dewasa, drama psikologis, batas pribadi, dan kehidupan sehari-hari di Bandung. Seluruh karakter yang tampil berusia 21 tahun ke atas. Kedekatan dan adegan romantis ditulis secara sensual, tanpa detail seksual grafis.
 
-**Created using [OMGithub.com](https://go.ondev.store/).**
+## Menjalankan
 
-[![OMGithub](https://img.shields.io/badge/OMGithub-Open%20project-orange?style=for-the-badge)](https://go.ondev.store/fahrihackbye/PlayGround)
-[![GitHub](https://img.shields.io/badge/GitHub-Source-181717?logo=github&style=for-the-badge)](https://github.com/fahrihackbye/PlayGround)
+1. Unduh dan pasang Ren'Py SDK dari [renpy.org](https://www.renpy.org/).
+2. Pilih **Add project** di Ren'Py Launcher dan arahkan ke folder repository ini.
+3. Pilih **Launch Project**. Save/load, autosave, dan rollback menggunakan fitur standar Ren'Py.
 
-- 🎮 [Open the project](https://go.ondev.store/fahrihackbye/PlayGround).
-- ✨ [Remix this project](https://go.ondev.store/fahrihackbye/PlayGround?remix=1).
-- 💻 [Explore the source](https://github.com/fahrihackbye/PlayGround).
-- 🛠️ [Check build runs](https://github.com/fahrihackbye/PlayGround/actions).
-- 🐛 [Report an issue](https://github.com/fahrihackbye/PlayGround/issues).
-- 👤 [Explore the creator's projects](https://go.ondev.store/fahrihackbye).
-- 🌍 [Create with OMGithub](https://go.ondev.store/).
-<!-- omgithub:readme:end -->
+Game sengaja tidak memakai aset eksternal: latar sederhana dibangun dengan `Solid`, sehingga naskah bisa dicoba tanpa mengunduh gambar atau musik.
+
+## Isi
+
+- `game/script.rpy` — cerita, tokoh, pilihan bercabang, affection points, dan enam variasi ending.
+- `game/options.rpy` — nama game dan konfigurasi dasar.
+
+Pilihan membentuk kedekatan Nara, Satria, dan Mira. Nilai affection membuka ending romansa, sementara pilihan lain membuka akhir perlahan atau akhir mandiri. Sistem poin memberi konteks pada cerita; persetujuan dan batas karakter tetap menjadi bagian dari narasi.
